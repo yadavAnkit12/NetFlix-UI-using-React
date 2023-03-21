@@ -1,25 +1,78 @@
-import logo from './logo.svg';
 import './App.css';
+import FifthCom from './components/FifthCom';
+import FirstCom from './components/FirstComp';
+import Footer from './components/Footer';
+import FourthCom from './components/FourthCom';
+import SecondCom from './components/SecondCom';
+import SixthCom from './components/SixthCom';
+import ThirdCom from './ThirdCom';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <>
+  <FirstCom/>
+  <hr
+        style={{
+          background: 'black',
+          color: 'black',
+          borderColor: 'grey',
+          height: '15px',
+          marginTop:'-2px'
+        }}
+      />
+      <SecondCom/>
+      <hr
+        style={{
+          background: 'black',
+          color: 'black',
+          borderColor: 'grey',
+          height: '15px',
+          marginTop:'-2px'
+        }}
+      />
+      <ThirdCom/>
+      <hr
+        style={{
+          background: 'black',
+          color: 'black',
+          borderColor: 'grey',
+          height: '15px',
+          marginTop:'-2px'
+        }}
+      />
+      <FourthCom/>
+      <hr
+        style={{
+          background: 'black',
+          color: 'black',
+          borderColor: 'grey',
+          height: '15px',
+          marginTop:'-2px'
+        }}
+      />
+      <FifthCom/>
+      <hr
+        style={{
+          background: 'black',
+          color: 'black',
+          borderColor: 'grey',
+          height: '15px',
+          marginTop:'-2px'
+        }}
+      />
+      <SixthCom/>
+      <hr
+        style={{
+          background: 'black',
+          color: 'black',
+          borderColor: 'grey',
+          height: '15px',
+          marginTop:'-2px'
+        }}
+      />
+      <Footer/>
+  </>
+  
+
 }
 
 export default App;
