@@ -15,7 +15,7 @@ const FourthCom=()=>{
         </Col>
         <Col sm='6'>
             <center>
-            <iframe src="https://www.youtube.com/embed/ZwKhufmMxko" style={{marginTop:'130px',height:'150%'}}>
+            <iframe src="https://www.youtube.com/embed/ZwKhufmMxko" style={{marginTop:'130px',height:'260px',width:'400px'}}>
 </iframe>
     </center>
         </Col>
